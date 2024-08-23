@@ -1,0 +1,443 @@
+@font-face {
+    font-family: rabico;
+    src: url(assets/GreyQo-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: rabico; 
+}
+/* #blog-page{
+  width: 100%;
+  background: black;
+} */
+
+.navbar {
+    background-color: #000;
+    padding: 1rem;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+
+  .container {
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    /* color: #fff; */
+    color: #551A8B;
+    /* color: black; */
+    text-decoration: none;
+    font-size: 3.5rem;
+    margin-right: 2rem;
+    /* margin-left: 1rem; */
+  }
+
+  .create-btn {
+    background-color: #551A8B;
+    color: #fff;
+    width: 150px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+ .create-btn a {
+  color: #fff;
+  text-decoration: none;
+ }
+
+  .search-input {
+    padding: 0.5rem;
+    /* border: none; */
+    outline: none;
+    font-size: 2rem;
+    /* margin-right: 2rem; */
+    border-radius: 0.5rem;
+    width: 200px;
+  }
+
+  .search-btn {
+    font-size: 2rem;
+    margin-right: 4rem;
+    border: 1px solid black;
+    width: 150px;
+    background-color: #551A8B;
+    color: #fff;
+    /* border: none; */
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    cursor: pointer;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo {
+      margin-bottom: 1rem;
+    }
+    .create-btn {
+      margin-bottom: 1rem;
+    }
+    .search-input {
+      width: 100%;
+    }
+  }
+
+  /* Blog-Container styling */
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  #blog {
+    padding: 20px;
+  }
+    #blog-conatiner{
+   margin-right: 150px;
+  }
+  
+  .headingg-container {
+    text-align: center;
+    /* align-items: center; */
+    font-size: 2rem;
+    color: black;
+    margin: 0 auto;
+    /* margin-left: 10rem; */
+    margin-bottom: 30px;
+  }
+
+  
+  .blog-card {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    padding: 20px;
+    /* background: black; */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Blog card image styling */
+  .blog-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+
+  /* Blog content styling */
+  .blog-content {
+    padding: 20px;
+  }
+
+  /* Blog title styling */
+  .blog-content h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  .blog-content a {
+ text-decoration: none;
+ color: #551A8B;
+  }
+
+  /* Blog description styling */
+  .blog-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* Read more button styling */
+  .read-more-btn {
+    background-color: #551A8B;
+    color: #fff;
+    width: 150px;
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+
+  .read-more-btn:hover {
+    background-color: black;
+  }
+
+  /* Footer styling */
+
+footer{
+  background: black;
+  color: #fff;
+  padding: 60px 60px;
+  /* height: 40vh; */
+}
+
+  footer .social img{
+    width: 30px;
+    transition: all 300ms ease;
+  }
+  footer .social img:hover{
+    transform: scale(1.2);
+  }
+  footer .social{
+    display: flex;
+    margin-top: 24px;
+    gap: 32px;
+  }
+  footer .top{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .copyrigth{
+    margin-top: 48px;
+    font-size: 2rem;
+  }
+  footer .right-p{
+    font-size: 28px;
+    margin-bottom: 10px;
+    /* color: #551A8B; */
+  }
+
+
+
+  /* Sign-up Login */
+  
+  /* #signup-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+background: url(images/WhatsApp\ Image\ 2024-07-08\ at\ 3.19.04\ AM.jpeg) no-repeat;
+/* background: blue; */
+/* background-size: cover;
+background-position: center;
+animation: animateBsg 5s linear infinite;
+  } */
+  /* @keyframes animateBsg {
+    100%{
+    filter: hue-rotate(360deg);
+    }} 
+    */
+#login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+/* background: url(assets/background.jpg) no-repeat; */
+background: blue;
+background-size: cover;
+background-position: center;
+animation: animateBg 5s linear infinite;
+}
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 470px;
+    background: transparent;
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+#lkl{
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: #fff;
+    pointer-events: none;
+transition: .5s;
+
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.8em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font: 1.5em;
+    line-height: 57px;
+}
+.remember-forget{
+margin: -15px 0 15px;
+font-size: 1.2em;
+color: #fff;
+display: flex;
+justify-content: space-between;
+}
+.remember-forget label input{
+    margin-right: 3px;
+}
+.remember-forget a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+#login {
+  width: 100%;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: black;
+    margin-top: 2.5em;
+    font-size: 2em;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+}
+#btno{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #000;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+}
+#btn{
+  width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #000;
+    font-size: 2em;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.register-link{
+  margin: 25px 0 10px;
+  font-size: 1.9em;
+  color: #fff;
+  text-align: center;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+@media (max-width:410px) {
+    section{
+        background-size: cover;
+background-position: center;
+    }
+    .login-box{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        backdrop-filter: none;
+        border-radius: 0;
+    }
+}
+
+/*  Sign-up */
+
+#signup-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 100%;
+background: url(assets/background.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+animation: animateBg 5s linear infinite;
+}
+@keyframes animateBg {
+    100%{
+    filter: hue-rotate(360deg);
+    }
+}
+.signup-box{
+    position: relative;
+    width: 400px;
+    height: 470px;
+    background: transparent;
+    backdrop-filter: blur(12px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:410px) {
+    #signup-page{
+        background-size: cover;
+background-position: center;
+    }
+   
+    .signup-box{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        backdrop-filter: none;
+        border-radius: 0;
+    }
+}

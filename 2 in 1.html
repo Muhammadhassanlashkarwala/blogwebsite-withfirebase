@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration / Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <section id="login-page">
+        <div class="signup-box">
+            <form action="">
+              <h2 id="lkl">Registration</h2>
+            <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                <input type="name" required id="name">
+                <label>Name</label>
+              </div>
+            <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" required id="email">
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" required id="password">
+                <label>Password</label>
+              </div>
+              <div class="remember-forget">
+                <label>
+                    <input type="checkbox">
+                    I agree to the terms & conditions
+                </label>
+              </div>
+              <button type="submit" id="btn">Registration</button>
+              <div class="register-link">
+                <p>Already have an account?<span>Login</span></p>
+              </div>
+               </form>
+              </div>
+        <div class="login-box">
+            <form action="">
+              <h2 id="lkl">Login</h2>
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" required id="email1">
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" required id="password1">
+                <label>Password</label>
+              </div>
+              <div class="remember-forget">
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+              </div>
+              <button type="submit" id="login">Login</button>
+              <div class="register-link">
+                <p>Don't have an account? <span>Register</span></p>
+              </div>
+            </form>
+        </div>
+      </section>
+    
+<script type="module" src="firebase.mjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
