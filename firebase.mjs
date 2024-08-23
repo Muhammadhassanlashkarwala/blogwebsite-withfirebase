@@ -70,8 +70,6 @@ onAuthStateChanged(auth, (user) => {
       })
       name.value = "",  email.value = "" , password.value = ""  ;
       
-      // console.log( "errormessage ===>", user);
-      // ...
     })
     .catch((error) => {
       const errorCode = error.code;
